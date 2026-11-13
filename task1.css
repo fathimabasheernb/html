@@ -1,0 +1,20 @@
+body{
+    background-color: brown;
+    font-size: 22px;
+    color: blue;
+}
+
+@media (max-width: 900px) {
+    body{
+        background-color: blueviolet;
+        font-size: 12px;
+        color: brown;
+    }
+}
+@media (max-width: 600px) {
+    body{
+        background-color: aqua;
+        font-size: 10px;
+        color: black;
+    }
+}

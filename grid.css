@@ -1,0 +1,68 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.container1{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+.box{
+    background-color: bisque;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px;
+    border-radius: 10px;
+    border-color: black;
+}
+.box1{
+    background-color: aqua;
+    color:rgb(6, 6, 6);
+    padding: 20px;
+    text-align: center;
+    border: 3px;
+    border-color: rgb(7, 7, 7);
+}
+.box2{
+    background-color: chocolate;
+    color: rgb(3, 3, 3);
+    padding: 20px;
+    text-align: center;
+    border: 3px;
+    border-color: black;
+}
+.box3{
+    background-color: rgb(194, 177, 111);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border: 3px;
+    border-color: black;
+}
+.box4{
+    background-color: rgb(149, 230, 142);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border: 3px;
+    border-color: black;
+}
+.box5{
+    background-color: rgb(143, 126, 220);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border: 3px;
+    border-color: black;
+}
+.box6{
+    background-color: rgb(229, 163, 208);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border: 3px;
+    border-color: black;
+}

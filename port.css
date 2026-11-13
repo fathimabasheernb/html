@@ -1,0 +1,183 @@
+.body{
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    font: georgia;
+    color: rgb(0, 0, 0);
+}
+
+.name{
+    background-image: url(dark.jpeg);
+    background-size: cover;
+    text-align: left;
+    font: Georgia;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top:20px;
+}
+.edu{
+    background-image: url(dark.jpeg);
+    background-size: cover;
+    text-align: left;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.skill{
+    background-image: url(dark.jpeg);
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(92, 53, 24);
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.lang{
+
+    background-image: url(dark.jpeg);
+    background-size: cover;
+    text-align: left;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 5px;
+}
+.box{
+    background-color: bisque;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top:20px;
+    border: 3px;
+    border-radius: 20px;
+    border-color: black;
+}
+.box1{
+    background-color: rgb(233, 197, 153);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px;
+    border-radius: 20px;
+    border-color: black;
+}
+.box2{
+    background-color: rgb(197, 151, 95);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px;
+    border-radius: 20px;
+    border-color: black;
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.flex{
+    background-color: rgb(223, 170, 105);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top:30px;
+    border: 3px;
+    border-radius: 20px;
+    border-color: black;
+}
+.flex1{
+    background-color: rgb(233, 197, 153);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+    border: 3px;
+    border-radius: 20px;
+    border-color: black;
+}
+.flex2{
+    background-color: rgb(197, 151, 95);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+    border: 3px;
+    border-radius: 20px;
+    border-color: black;
+}
+.list{
+    text-align: left;
+    padding: 10px;
+    border-top: 5px;
+}
+.contact{
+    background-color: rgb(55, 32, 3);
+    text-align: center;
+    color: rgb(247, 245, 245);
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px;
+    border-radius: 10px;
+    border-color: rgb(250, 247, 247);
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px 80px;
+    background: linear-gradient(
+        135deg,
+        #100d0a,
+        #382515,
+        #100d0a
+    );
+}
+.subtitle {
+    color: #c6a36a;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #c6a36a;
+}
+
+.hero h3 {
+    color: #e4c99d;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.hero-text {
+    margin-top: 15px;
+    color: #b9afa3;
+}
+
+.hero-line {
+    width: 100px;
+    height: 3px;
+    background-color: #c6a36a;
+    margin: 30px auto 0;
+    border-radius: 10px;
+}
